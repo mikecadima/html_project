@@ -1,0 +1,205 @@
+html {
+    background: url(img/background.jpeg) no-repeat center center fixed;
+    
+}
+
+/* ----------html project header --------------*/
+.top{
+    border: ridge;
+    font-style: DejaVu Sans Mono, monospace;
+}
+
+nav{
+    width: 100%;
+    overflow: auto;
+}
+ul{
+    padding: 0;
+    margin: 0 0 0 300px;
+    list-style: none;
+    border: white;
+    border-style: ridge;
+}
+li{
+    float: left;
+}
+.logo {
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 30px;
+    font-size: 30px;
+
+}
+nav a {
+    width: 100px;
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-family: Arial;
+    color: black;
+    text-align: center;
+}
+nav a:hover {
+    background-color: rgb(65, 65, 223);
+    transition: 0.5s;
+    text-transform: uppercase;
+    
+}
+nav .container{
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.container button{
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: none;
+    color: #ffffff;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+.container button:hover{
+    background: white;
+    color: black;
+}
+.logo .container .nav-container{
+    display: inline-block;
+}
+/* -------------h1 title ----------*/
+
+.title{
+    text-align: center;
+    font-size: 150px;
+    font-style: Tahoma, Geneva, sans-serif;
+    color: white;
+    text-decoration: underline;
+}
+
+/* ----------middle elements -------*/
+.middle{
+    border: ridge;
+    font-style: DejaVu Sans Mono, monospace;
+}
+.container-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+    padding: 1em;
+    font-size: 17px;
+}
+.button{
+    background-color: none;
+}
+/* --------numbers in center ---------*/
+.first{
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    padding: 10px;
+    background: ;
+    border: outset white;
+    color: white;
+}
+/* ------second row of middle elements ---*/
+
+.container-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+
+    background: ;
+    margin: 10px;
+    font-size: 10px;
+}
+.container-2 div{
+    border: 1px #cccccc solid;
+    margin: 0.5em;
+}
+.box2-1 {
+    flex: 2;
+    order: 2;
+}
+.box2-2{
+    flex: 1;
+    order: 1;
+}
+.box2-3{
+    flex: 2;
+    order: 3;
+}
+.container-2-box {
+    width: 30%;
+}
+
+/* --------footer bottom section----------*/
+.footer{
+    width: 100vw;
+    display: block;
+    overflow: hidden;
+    padding: 50px 0;
+    box-sizing: border-box;
+    background-color: #33339b;
+}
+.inner_footer{
+    display: block;
+    margin: 0 auto;
+    width: 1100px;
+    height: 50%;
+}
+.inner_footer .logo_container {
+    width: 35%;
+    float: left;
+    height: 100%;
+    display: block;
+}
+.inner_footer .logo_container img{
+    width: 60%;
+    height: auto;
+
+}
+.inner_footer .footer_third{
+    width: calc(21.6666666667% - 20px);
+    margin-right: 1px;
+    float: left;
+    height: 100%;
+}
+.inner_footer .footer_third:last-child{
+    margin-right: 0px;
+}
+.inner_footer .footer_third:last-child h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: white;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.inner_footer .footer_third:last-child a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+    display: block;
+    font-weight: 200px;
+    width: 100%;
+    padding-bottom: 5px;
+}
+.inner_footer .footer_third li{
+    display: inline-block;
+    padding: 0 5px;
+    font-size: 20px;
+}
+.inner_footer .footer_third span{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    display: block;
+    width: 100%;
+    padding-top: 20px;
+}
