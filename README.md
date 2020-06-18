@@ -1,2 +1,2 @@
 # html_project
-A mach website
+A mock website
