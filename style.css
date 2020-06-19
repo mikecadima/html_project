@@ -90,7 +90,7 @@ nav .container{
     justify-content: space-evenly;
     flex-flow: wrap;
     padding: 1em;
-    font-size: 17px;
+    font-size: 19px;
 }
 .button{
     background-color: none;
@@ -105,6 +105,25 @@ nav .container{
     border: outset white;
     color: white;
 }
+/* ---------buttons in center----------  */
+.button{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+.circle_button{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    background: ;
+    border: outset white;
+    color: black;
+    cursor: pointer;
+}
 /* ------second row of middle elements ---*/
 
 .container-2{
@@ -115,28 +134,36 @@ nav .container{
 
     background: ;
     margin: 10px;
-    font-size: 10px;
+    font-size: 20px;
 }
 .container-2 div{
     border: 1px #cccccc solid;
     margin: 0.5em;
 }
 .box2-1 {
-    flex: 2;
-    order: 2;
-}
-.box2-2{
     flex: 1;
     order: 1;
+    background-image: linear-gradient(to right, blue , grey);
+}
+.box2-2{
+    flex: 2;
+    order: 2;
+    background-image: linear-gradient(to right, rgb(98, 211, 98) , grey);
 }
 .box2-3{
-    flex: 2;
+    flex: 3;
     order: 3;
+    background-image: linear-gradient(to right, brown , grey);
 }
 .container-2-box {
     width: 30%;
 }
-
+/* -----------logos across ---------------*/
+.logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 /* --------footer bottom section----------*/
 .footer{
     width: 100vw;
@@ -144,7 +171,7 @@ nav .container{
     overflow: hidden;
     padding: 50px 0;
     box-sizing: border-box;
-    background-color: #33339b;
+    background-color: #4848ca;
 }
 .inner_footer{
     display: block;
@@ -168,6 +195,7 @@ nav .container{
     margin-right: 1px;
     float: left;
     height: 100%;
+    color: black;
 }
 .inner_footer .footer_third:last-child{
     margin-right: 0px;
